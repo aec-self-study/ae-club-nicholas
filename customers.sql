@@ -1,3 +1,4 @@
+-- adding a comment to create merge conflict in the second branch.
 with 
 customers as (
 
