@@ -1,4 +1,3 @@
--- adding a comment to create merge conflict
 with 
 customers as (
 
