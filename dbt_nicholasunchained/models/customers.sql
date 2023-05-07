@@ -1,4 +1,3 @@
--- adding comment to branch 2
 with 
 customers as (
 
