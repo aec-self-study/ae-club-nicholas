@@ -1,4 +1,5 @@
--- adding comment to branch 2
+{{ config(materialized='table') }}
+
 with 
 customers as (
 
