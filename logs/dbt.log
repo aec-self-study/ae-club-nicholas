@@ -172,3 +172,194 @@ There are 1 unused configuration paths:
 [0m17:31:18.401563 [debug] [MainThread]: Command `dbt run` succeeded at 17:31:18.401436 after 1.27 seconds
 [0m17:31:18.401978 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc1352575e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc1321f7df0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc1321f4910>]}
 [0m17:31:18.402384 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2023-05-09 23:31:42.241331 | 2baff5bd-a15b-471c-9b06-be278bce692c ==============================
+[0m23:31:42.241331 [info ] [MainThread]: Running with dbt=1.4.6
+[0m23:31:42.244715 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/vscode/.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m23:31:42.245208 [debug] [MainThread]: Tracking: tracking
+[0m23:31:42.251823 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f82106127a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f820ce90f70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f820ce90f40>]}
+[0m23:31:42.270559 [debug] [MainThread]: checksum: 0325e47f1211ebbdb24627f81d8289d705fdb573380364d07ab35982cb3d57cd, vars: {}, profile: None, target: None, version: 1.4.6
+[0m23:31:42.282969 [info ] [MainThread]: Unable to do partial parsing because of a version mismatch
+[0m23:31:42.294262 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '2baff5bd-a15b-471c-9b06-be278bce692c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f820ccb4b20>]}
+[0m23:31:43.025483 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.coffee_shop_nicholas.example
+[0m23:31:43.030766 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '2baff5bd-a15b-471c-9b06-be278bce692c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f820ce93400>]}
+[0m23:31:43.036212 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '2baff5bd-a15b-471c-9b06-be278bce692c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f820ccb66e0>]}
+[0m23:31:43.036658 [info ] [MainThread]: Found 0 models, 0 tests, 0 snapshots, 0 analyses, 336 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+[0m23:31:43.037070 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '2baff5bd-a15b-471c-9b06-be278bce692c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f820ce1aef0>]}
+[0m23:31:43.038186 [info ] [MainThread]: 
+[0m23:31:43.038812 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m23:31:43.039253 [debug] [MainThread]: Command end result
+[0m23:31:43.045954 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f82106127a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f820ce91ed0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f820ce91f60>]}
+[0m23:31:43.046364 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2023-05-09 23:34:23.222946 | d56e9b85-b042-4b6f-8afc-7ba223798dbf ==============================
+[0m23:34:23.222946 [info ] [MainThread]: Running with dbt=1.4.6
+[0m23:34:23.224531 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/vscode/.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m23:34:23.224925 [debug] [MainThread]: Tracking: tracking
+[0m23:34:23.228270 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe1f4c83f10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe1f4cdb310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe1f4cdb2e0>]}
+[0m23:34:23.228815 [info ] [MainThread]: Setting up your profile.
+[0m23:35:55.876317 [info ] [MainThread]: Profile dbt_nicholasunchained written to /home/vscode/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m23:35:55.876976 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe1f4c834c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe1f28ad030>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe1f28af0d0>]}
+[0m23:35:55.877569 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2023-05-09 23:36:16.173386 | 49e7430f-080e-45b2-9519-32c567611187 ==============================
+[0m23:36:16.173386 [info ] [MainThread]: Running with dbt=1.4.6
+[0m23:36:16.176121 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/vscode/.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m23:36:16.176593 [debug] [MainThread]: Tracking: tracking
+[0m23:36:16.181298 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb74061e7a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb73cca5060>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb73cca5030>]}
+[0m23:36:16.199284 [debug] [MainThread]: checksum: 0325e47f1211ebbdb24627f81d8289d705fdb573380364d07ab35982cb3d57cd, vars: {}, profile: None, target: None, version: 1.4.6
+[0m23:36:16.209293 [info ] [MainThread]: Unable to do partial parsing because profile has changed
+[0m23:36:16.210361 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '49e7430f-080e-45b2-9519-32c567611187', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb73ccc56f0>]}
+[0m23:36:16.956360 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.coffee_shop_nicholas.example
+[0m23:36:16.961663 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '49e7430f-080e-45b2-9519-32c567611187', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb73d23b640>]}
+[0m23:36:16.967278 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '49e7430f-080e-45b2-9519-32c567611187', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb73ccc4bb0>]}
+[0m23:36:16.967771 [info ] [MainThread]: Found 0 models, 0 tests, 0 snapshots, 0 analyses, 336 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+[0m23:36:16.968253 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '49e7430f-080e-45b2-9519-32c567611187', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb74061e800>]}
+[0m23:36:16.969233 [info ] [MainThread]: 
+[0m23:36:16.969819 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m23:36:16.970327 [debug] [MainThread]: Command end result
+[0m23:36:16.975250 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb74061e800>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb73d22e470>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb73d238d30>]}
+[0m23:36:16.975644 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2023-05-09 23:40:06.098990 | 9458b811-2a4c-48e4-94e6-b541e5ddc383 ==============================
+[0m23:40:06.098990 [info ] [MainThread]: Running with dbt=1.4.6
+[0m23:40:06.103429 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/vscode/.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m23:40:06.103881 [debug] [MainThread]: Tracking: tracking
+[0m23:40:06.113579 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff31c38efb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff3189a02b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff3189a0550>]}
+[0m23:40:06.131927 [debug] [MainThread]: checksum: 0325e47f1211ebbdb24627f81d8289d705fdb573380364d07ab35982cb3d57cd, vars: {}, profile: None, target: None, version: 1.4.6
+[0m23:40:06.169782 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m23:40:06.170075 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m23:40:06.170519 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.coffee_shop_nicholas.example
+[0m23:40:06.176330 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '9458b811-2a4c-48e4-94e6-b541e5ddc383', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff318965120>]}
+[0m23:40:06.182626 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '9458b811-2a4c-48e4-94e6-b541e5ddc383', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff3188a9660>]}
+[0m23:40:06.183008 [info ] [MainThread]: Found 0 models, 0 tests, 0 snapshots, 0 analyses, 336 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+[0m23:40:06.183398 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '9458b811-2a4c-48e4-94e6-b541e5ddc383', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff31c38efb0>]}
+[0m23:40:06.184335 [info ] [MainThread]: 
+[0m23:40:06.184918 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m23:40:06.185466 [debug] [MainThread]: Command end result
+[0m23:40:06.190303 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff3188a91e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff3188a8b20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff3188a8970>]}
+[0m23:40:06.190656 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2023-05-09 23:48:52.522169 | cf8021ee-38c1-4167-a017-3386dc8ed496 ==============================
+[0m23:48:52.522169 [info ] [MainThread]: Running with dbt=1.4.6
+[0m23:48:52.524557 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/vscode/.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m23:48:52.524891 [debug] [MainThread]: Tracking: tracking
+[0m23:48:52.527632 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcd0b5ce7d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcd07aa02b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcd07aa0550>]}
+[0m23:48:52.543967 [debug] [MainThread]: checksum: 0325e47f1211ebbdb24627f81d8289d705fdb573380364d07ab35982cb3d57cd, vars: {}, profile: None, target: None, version: 1.4.6
+[0m23:48:52.578670 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m23:48:52.579122 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m23:48:52.579799 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.coffee_shop_nicholas.example
+[0m23:48:52.586498 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'cf8021ee-38c1-4167-a017-3386dc8ed496', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcd07a65120>]}
+[0m23:48:52.593344 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'cf8021ee-38c1-4167-a017-3386dc8ed496', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcd079a5660>]}
+[0m23:48:52.593872 [info ] [MainThread]: Found 0 models, 0 tests, 0 snapshots, 0 analyses, 336 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+[0m23:48:52.594419 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'cf8021ee-38c1-4167-a017-3386dc8ed496', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcd0b5ce7d0>]}
+[0m23:48:52.595593 [info ] [MainThread]: 
+[0m23:48:52.596318 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m23:48:52.596889 [debug] [MainThread]: Command end result
+[0m23:48:52.604207 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcd079a51e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcd079a4b20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcd079a4970>]}
+[0m23:48:52.604711 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2023-05-09 23:49:02.390697 | fca2c84d-6cb5-49eb-b901-d677eb07ea7b ==============================
+[0m23:49:02.390697 [info ] [MainThread]: Running with dbt=1.4.6
+[0m23:49:02.393606 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/vscode/.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'select': ['customers.sql'], 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m23:49:02.394010 [debug] [MainThread]: Tracking: tracking
+[0m23:49:02.399478 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7faa21418b50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7faa1dc8ce50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7faa1dc8d0f0>]}
+[0m23:49:02.417496 [debug] [MainThread]: checksum: 0325e47f1211ebbdb24627f81d8289d705fdb573380364d07ab35982cb3d57cd, vars: {}, profile: None, target: None, version: 1.4.6
+[0m23:49:02.450799 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m23:49:02.451206 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m23:49:02.451916 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.coffee_shop_nicholas.example
+[0m23:49:02.461038 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'fca2c84d-6cb5-49eb-b901-d677eb07ea7b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7faa1da54c70>]}
+[0m23:49:02.466783 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'fca2c84d-6cb5-49eb-b901-d677eb07ea7b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7faa1d9a5270>]}
+[0m23:49:02.467127 [info ] [MainThread]: Found 0 models, 0 tests, 0 snapshots, 0 analyses, 336 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+[0m23:49:02.467524 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'fca2c84d-6cb5-49eb-b901-d677eb07ea7b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7faa21482260>]}
+[0m23:49:02.468140 [warn ] [MainThread]: The selection criterion 'customers.sql' does not match any nodes
+[0m23:49:02.469042 [info ] [MainThread]: 
+[0m23:49:02.469669 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m23:49:02.470216 [debug] [MainThread]: Command end result
+[0m23:49:02.475595 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7faa1d9a4e20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7faa1d9a4820>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7faa1d9a4670>]}
+[0m23:49:02.475966 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2023-05-09 23:49:51.671231 | 33390719-1ab8-478f-ad11-260b4daf2f1f ==============================
+[0m23:49:51.671231 [info ] [MainThread]: Running with dbt=1.4.6
+[0m23:49:51.675596 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/vscode/.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'select': ['customers.sql'], 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m23:49:51.676014 [debug] [MainThread]: Tracking: tracking
+[0m23:49:51.678568 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcd471907f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcd47190f40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcd471907c0>]}
+[0m23:49:51.696843 [debug] [MainThread]: checksum: 0325e47f1211ebbdb24627f81d8289d705fdb573380364d07ab35982cb3d57cd, vars: {}, profile: None, target: None, version: 1.4.6
+[0m23:49:51.738944 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m23:49:51.739394 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m23:49:51.739961 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.coffee_shop_nicholas.example
+[0m23:49:51.748322 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '33390719-1ab8-478f-ad11-260b4daf2f1f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcd46f58a90>]}
+[0m23:49:51.757101 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '33390719-1ab8-478f-ad11-260b4daf2f1f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcd46ea8fd0>]}
+[0m23:49:51.757659 [info ] [MainThread]: Found 0 models, 0 tests, 0 snapshots, 0 analyses, 336 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+[0m23:49:51.758141 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '33390719-1ab8-478f-ad11-260b4daf2f1f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcd46ea9000>]}
+[0m23:49:51.758858 [warn ] [MainThread]: The selection criterion 'customers.sql' does not match any nodes
+[0m23:49:51.759867 [info ] [MainThread]: 
+[0m23:49:51.760508 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m23:49:51.760978 [debug] [MainThread]: Command end result
+[0m23:49:51.766113 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcd46ea8c10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcd46ea8670>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcd46ea84c0>]}
+[0m23:49:51.766431 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2023-05-09 23:51:07.300578 | a020fd67-86c3-4493-aaa7-1ea97d4568de ==============================
+[0m23:51:07.300578 [info ] [MainThread]: Running with dbt=1.4.6
+[0m23:51:07.304537 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/vscode/.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'select': ['customers.sql'], 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m23:51:07.305767 [debug] [MainThread]: Tracking: tracking
+[0m23:51:07.307524 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f22e20a5540>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f22e20a5000>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f22e20a5510>]}
+[0m23:51:07.325721 [debug] [MainThread]: checksum: 0325e47f1211ebbdb24627f81d8289d705fdb573380364d07ab35982cb3d57cd, vars: {}, profile: None, target: None, version: 1.4.6
+[0m23:51:07.363390 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m23:51:07.363688 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m23:51:07.364114 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.coffee_shop_nicholas.example
+[0m23:51:07.370142 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'a020fd67-86c3-4493-aaa7-1ea97d4568de', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f22e2068a30>]}
+[0m23:51:07.376242 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'a020fd67-86c3-4493-aaa7-1ea97d4568de', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f22e2038f70>]}
+[0m23:51:07.376628 [info ] [MainThread]: Found 0 models, 0 tests, 0 snapshots, 0 analyses, 336 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+[0m23:51:07.377083 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'a020fd67-86c3-4493-aaa7-1ea97d4568de', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f22e2038fa0>]}
+[0m23:51:07.377747 [warn ] [MainThread]: The selection criterion 'customers.sql' does not match any nodes
+[0m23:51:07.378940 [info ] [MainThread]: 
+[0m23:51:07.379568 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m23:51:07.380134 [debug] [MainThread]: Command end result
+[0m23:51:07.385334 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f22e2038bb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f22e2038610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f22e2038460>]}
+[0m23:51:07.385677 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2023-05-09 23:54:05.490292 | c62d4376-87a4-4b9e-9efa-fb0fac0b5d31 ==============================
+[0m23:54:05.490292 [info ] [MainThread]: Running with dbt=1.4.6
+[0m23:54:05.494232 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/vscode/.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'select': ['customers.sql'], 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m23:54:05.495402 [debug] [MainThread]: Tracking: tracking
+[0m23:54:05.497199 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5b6c241960>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5b68a90610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5b68a90fa0>]}
+[0m23:54:05.515105 [debug] [MainThread]: checksum: 0325e47f1211ebbdb24627f81d8289d705fdb573380364d07ab35982cb3d57cd, vars: {}, profile: None, target: None, version: 1.4.6
+[0m23:54:05.550910 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m23:54:05.551217 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m23:54:05.551620 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.coffee_shop_nicholas.example
+[0m23:54:05.557208 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'c62d4376-87a4-4b9e-9efa-fb0fac0b5d31', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5b68858e20>]}
+[0m23:54:05.562702 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'c62d4376-87a4-4b9e-9efa-fb0fac0b5d31', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5b687a9360>]}
+[0m23:54:05.563100 [info ] [MainThread]: Found 0 models, 0 tests, 0 snapshots, 0 analyses, 336 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+[0m23:54:05.563493 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'c62d4376-87a4-4b9e-9efa-fb0fac0b5d31', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5b6c241960>]}
+[0m23:54:05.564122 [warn ] [MainThread]: The selection criterion 'customers.sql' does not match any nodes
+[0m23:54:05.565028 [info ] [MainThread]: 
+[0m23:54:05.565696 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m23:54:05.566132 [debug] [MainThread]: Command end result
+[0m23:54:05.575335 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5b687a8ee0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5b687a8a30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5b687a8880>]}
+[0m23:54:05.575643 [debug] [MainThread]: Flushing usage events
