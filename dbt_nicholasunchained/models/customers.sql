@@ -36,4 +36,4 @@ final as (
 )
 
 select * from final
-order by first_order_at limit 5
+order by first_order_at 
