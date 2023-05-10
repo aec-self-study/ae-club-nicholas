@@ -8,7 +8,8 @@ customers as (
     name,
     email
 
-  from `analytics-engineers-club.coffee_shop.customers`
+  from {{ source('coffee_shop', 'customers') }} as customers
+  {# `analytics-engineers-club.coffee_shop.customers` #}
 ),
 
 orders_per_customer as(
@@ -18,7 +19,8 @@ orders_per_customer as(
     min(created_at) as first_order_at,
     count(*)        as number_of_orders
 
-  from `analytics-engineers-club.coffee_shop.orders`
+  from {{ source('coffee_shop', 'orders') }} as orders
+  {# from `analytics-engineers-club.coffee_shop.orders` #}
   group by 1
 ),
 
