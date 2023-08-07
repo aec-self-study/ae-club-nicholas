@@ -1,5 +1,5 @@
 version: 2
- 
+
 models:
   - name: customers
     description: Cleaned up data for our customers
