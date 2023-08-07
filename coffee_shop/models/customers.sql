@@ -1,32 +1,32 @@
 {{ config(materialized='table') }}
 
-with 
+with
 customers as (
 
-  select 
+  select
     id as customer_id,
     name,
     email
 
   from {{ source('coffee_shop', 'customers') }} as customers
-  {# `analytics-engineers-club.coffee_shop.customers` #}
+  {# from `analytics-engineers-club.coffee_shop.customers` as customers #}
 ),
 
 orders_per_customer as(
 
-  select 
+  select
     customer_id,
     min(created_at) as first_order_at,
     count(*)        as number_of_orders
 
   from {{ source('coffee_shop', 'orders') }} as orders
-  {# from `analytics-engineers-club.coffee_shop.orders` #}
+  {# from `analytics-engineers-club.coffee_shop.orders` as orders #}
   group by 1
 ),
 
 final as (
 
-  select 
+  select
     customer_id,
     name,
     email,
@@ -38,4 +38,4 @@ final as (
 )
 
 select * from final
-order by first_order_at 
+order by first_order_at

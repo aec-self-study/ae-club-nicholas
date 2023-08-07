@@ -1,8 +1,8 @@
 version: 2
 
 sources:
-  - name: coffee_shop
-    project: analytics-engineers-club
+  - project: aec-students
+    name: dbt_nicholas
     tables:
       - name: customers
         description: Cleaned up data for our customers
@@ -23,3 +23,11 @@ sources:
             tests:
               - unique
               - not_null
+  - project: analytics-engineers-club
+    name: coffee_shop
+    tables:
+      - name: customers
+      - name: order_items
+      - name: orders
+      - name: product_prices
+      - name: products
